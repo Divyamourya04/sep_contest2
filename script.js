@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
             row.innerHTML = `
                 <td>${student.id}</td>
                 <td>
-                <img src="${student.img_src}" alt="Student Image" width="25" > 
+                <img src="${student.img_src}"> 
                 ${student.first_name} ${student.last_name}</td>
                 <td>${student.gender}</td>
                 <td>${student.class}</td>
